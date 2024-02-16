@@ -129,10 +129,10 @@
                             {{ item.month }}
                           </td>
                           <td>
-                            {{ item.value }}
+                            {{ tableData.leadingCycle[index].value }}
                           </td>
                           <td>
-                            {{ tableData.leadingCycle[index].value }}
+                            {{ item.value }}
                           </td>
                         </tr>
                       </tbody>
