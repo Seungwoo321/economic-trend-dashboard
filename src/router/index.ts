@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/economy-trend-dashboard',
+    path: '/economic-trend-dashboard',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
